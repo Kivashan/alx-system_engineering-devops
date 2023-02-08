@@ -20,4 +20,10 @@ Additional information about the scripts
 
 	Prints the absolute path name of the current working directory.
 
+1. What's in there?
+
+	1-listit
+
+	Displays the contents list of the current directory.
+
 
