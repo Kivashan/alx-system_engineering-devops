@@ -12,3 +12,12 @@ Who are the contributors?
 
 Kivashan Vadivelu - Maintenance
 
+Additional information about the scripts
+
+0. Where am I?
+
+	0-current_working_directory
+
+	Prints the absolute path name of the current working directory.
+
+
