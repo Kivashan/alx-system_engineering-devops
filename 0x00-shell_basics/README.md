@@ -26,4 +26,9 @@ Additional information about the scripts
 
 	Displays the contents list of the current directory.
 
+2. There is no place like home
+
+	2-bring_me_home
+
+	Changes the working directory to the home directory.
 
