@@ -1,1 +1,17 @@
-total 52 drwxr-xr-x 2 root root 277 Feb 13 04:17 . drwxr-xr-x 6 root root 132 Feb 13 03:58 .. -rwxr--r-- 1 root root 32 Feb 13 00:09 0-hello_world -rwxr--r-- 1 root root 28 Feb 13 00:33 1-confused_smiley -rwxr--r-- 1 root root 28 Feb 13 00:54 2-hellofile -rwxr--r-- 1 root root 39 Feb 13 00:56 3-twofiles -rwxr--r-- 1 root root 35 Feb 13 01:10 4-lastlines -rwxr--r-- 1 root root 35 Feb 13 02:40 5-firstlines -rwxr--r-- 1 root root 36 Feb 13 02:44 6-third_line -rwxr--r-- 1 root root 78 Feb 13 03:53 7-file -rwxr--r-- 1 root root 53 Feb 13 04:17 8-cwd_state -rw-r--r-- 1 root root 12 Feb 13 03:53 \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) -rw-r--r-- 1 root root 8 Feb 13 01:12 .gitignore -rwxr--r-- 1 root root 135 Feb 13 01:28 newfile -rw-r--r-- 1 root root 543 Feb 13 00:04 README.md
+total 52
+drwxr-xr-x 2 root root 299 Feb 13 04:26 .
+drwxr-xr-x 6 root root 132 Feb 13 04:22 ..
+-rwxr--r-- 1 root root  32 Feb 13 00:09 0-hello_world
+-rwxr--r-- 1 root root  28 Feb 13 00:33 1-confused_smiley
+-rwxr--r-- 1 root root  28 Feb 13 00:54 2-hellofile
+-rwxr--r-- 1 root root  39 Feb 13 00:56 3-twofiles
+-rwxr--r-- 1 root root  35 Feb 13 01:10 4-lastlines
+-rwxr--r-- 1 root root  35 Feb 13 02:40 5-firstlines
+-rwxr--r-- 1 root root  36 Feb 13 02:44 6-third_line
+-rwxr--r-- 1 root root  78 Feb 13 03:53 7-file
+-rwxr--r-- 1 root root  42 Feb 13 04:26 8-cwd_state
+-rw-r--r-- 1 root root  12 Feb 13 03:53 \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
+-rw-r--r-- 1 root root   8 Feb 13 01:12 .gitignore
+-rw-r--r-- 1 root root   0 Feb 13 04:26 ls_cwd_content
+-rwxr--r-- 1 root root 135 Feb 13 01:28 newfile
+-rw-r--r-- 1 root root 543 Feb 13 00:04 README.md
