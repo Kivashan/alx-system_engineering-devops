@@ -1,2 +1,2 @@
 #!/bin/bash
-ls *.js ./*.js | xargs rm
+rm *.txt */*.txt
