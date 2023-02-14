@@ -1,2 +1,2 @@
-#!//binbash
-find . -mindepth 1 -type f -name "*.gif" | sort -sf | rev | cut -d "/" -f 1 | cut -d '.' -f 2- | rev
+#!/bin/bash
+find . -type f -name "*.gif" | LC-ALL= C sort -sf | rev | cut -d "/" -f 1 | cut -d '.' -f 2- | rev
