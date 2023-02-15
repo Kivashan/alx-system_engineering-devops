@@ -1,2 +1,2 @@
 #!/bin/bash
-tr 'aAbBcCdDeEfFgGhHiIjJkKlLmM' 'nNoOpPqQrRsStTuUvVxXyYzZ'
+tr 'nNoOpPqQrRsStTuUvVxXyYzZ' 'aAbBcCdDeEfFgGhHiIjJkKlLmM'
