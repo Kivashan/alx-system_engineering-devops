@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# a Bash script that displays the content of the file /etc/passwd
+# but specific fields only 
+
+file="/etc/passwd"
+
+while read -r line
+do
+	echo "$line" > list; cut -d ":" -f 1,3,6 list
+done < $file
