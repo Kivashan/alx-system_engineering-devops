@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Tell the story of passwd
+
+file="/etc/passwd"
+
+while IFS=":" read -r USERN GROUP_ID HOME_D CS USERID PW UII
+do
+	echo -n "The user $USERN is part of the $GROUP_ID gang, lives in"
+	echo -n " $HOME_D and rides $CS. $USERID's place is"
+	echo -n " protected by the passcode $PW, more info about the"
+	echo " user here: $UII"
+done < $file
