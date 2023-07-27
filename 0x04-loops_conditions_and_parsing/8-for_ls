@@ -4,10 +4,7 @@
 #+	In a list format
 #+	Where only the part of the name after the first dash is displayed
 
-ls > list
-a=$(cut -d "-" -f 2- list)
-for i in $a
+for i in *
 do
-	echo "$i"
+	echo "$i" | cut -d "-" -f 2-
 done
-rm list
