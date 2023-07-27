@@ -3,7 +3,7 @@
 
 file="/etc/passwd"
 
-while IFS=":" read -r USERN GROUP_ID HOME_D CS USERID PW UII
+while IFS=":" read -r USERN PW USERID GROUP_ID UII HOME_D CS
 do
 	echo -n "The user $USERN is part of the $GROUP_ID gang, lives in"
 	echo -n " $HOME_D and rides $CS. $USERID's place is"
