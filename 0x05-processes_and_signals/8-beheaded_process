@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Sending the SIGKILL(-9) signal
+
+pid=$(pgrep -f 7-highlander)
+kill -9 "$pid"
