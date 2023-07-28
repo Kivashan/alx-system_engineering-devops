@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Handling multiple signals
+
+# Create file
+
+file="/var/run/myscript.pid"
+touch $file
+echo "$$" > $file
+
+# catch signals
+
+trap "echo Y U no love me?!" SIGINT
+trap "echo I hate the kill command; rm /var/run/myscript.pid" SIGTERM
+trap "rm /var/run/myscript.pid" SIGQUIT
+
+while true
+do
+	echo "To infinity and beyond"
+done
