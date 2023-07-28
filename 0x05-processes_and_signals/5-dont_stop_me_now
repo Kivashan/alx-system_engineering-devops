@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # sending a signal to terminate a process - SIGTERM(-15)
 
-pid=`pgrep -f 4-to_infinity_and_beyond`
-kill -15 $pid
+pid=$(pgrep -f 4-to_infinity_and_beyond)
+kill -15 "$pid"
