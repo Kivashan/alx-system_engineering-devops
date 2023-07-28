@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Using a signal from user to terminate execution on a script
+
+while true
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
