@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Using the trap command to capture a signal
+
+trap "echo I am invincible!!!" TERM
+
+while true
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
