@@ -2,4 +2,4 @@
 # parsing and sorting fields from apache access log files
 
 file="apache-access.log"
-awk '{print $10,$1,$9}' $file | sort -k 1 -nr
+awk '{print $10,$1,$9}' $file | sort | uniq -c | sort -nr
