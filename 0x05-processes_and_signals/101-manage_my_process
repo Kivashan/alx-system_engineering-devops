@@ -7,7 +7,7 @@ then
 else
 	case $1 in
 		"start")
-			bash "manage_my_process" &
+			bash manage_my_process
 			grep -f "manage_my_process" > "/var/run/my_process.pid"
 			echo "manage_my_process started"
 			;;
@@ -20,7 +20,7 @@ else
 		"restart")
 			pid=$(cat /var/run/my_process.pid)
 			kill -19 "$pid"
-			bash "manage_my_process" &
+			bash manage_my_process
 			grep -f "manage_my_process" > "/var/run/my_process.pid"
 			echo "manage_my_process restarted"
 			;;
