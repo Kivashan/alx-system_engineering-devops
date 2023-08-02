@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# script that calls netstat with specific flags
+
+netstat -lp
