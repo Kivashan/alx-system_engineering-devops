@@ -1,1 +1,0 @@
-COnfiguration management
